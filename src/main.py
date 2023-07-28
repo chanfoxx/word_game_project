@@ -46,7 +46,7 @@ while used_word < range_tour:
     # Обновляем переменную с количеством использованных слов.
     used_word = player.get_used_words()
 
-# выводим результаты игры.
+# Выводим результаты игры.
 if used_word == range_tour:
     print(f"The game is over! You have guessed all the word. Congratulations!")
 else:
